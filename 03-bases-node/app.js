@@ -30,7 +30,7 @@ console.log("base: yargs", argv.base);
 // const [, base = 5] = arg3.split("=");
 
 // const base = 3;
-// delete
+
 
 crearArchivo(argv.b, argv.l)
   .then((nombreArchivo) => console.log(nombreArchivo))
